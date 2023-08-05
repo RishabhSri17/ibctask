@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rishabh-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Permanent+Marker&family=Playfair+Display:wght@500&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Oswald:wght@500&family=Permanent+Marker&family=Playfair+Display:wght@500&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="left">Rishabh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#head1">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contactme">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <div class="btext">Hello!</div>
+                <br />
+                I'm <span class="myname">Rishabh Srivastava</span> ,and I am a
+                passionate <span id="element"></span>
+            </div>
+            <div class="rightsection" data-aos="slide-left" data-aos-delay="250">
+                <img src="myimg.jpeg" alt="Pic" />
+            </div>
+            <div class="rightsection1" data-aos="slide-left" data-aos-delay="250">
+                <img src="myimg2.jpeg" alt="Pic" />
+            </div>
+        </section>
+        <hr id="head1">
+        <section class="thirdsection">
+            <span class="head1">
+                <h1>About Me</h1>
+            </span><br>
+            <div class="lsection1">
+                Currently I'm Computer Science Sophmore at Maulana Azad National
+                Institute of Technology,Bhopal (M.P.) ,an Institute of National
+                Importance.I have an ardent interest in Competitive Programming, and
+                Web development . I am currently learning C, C++ programming language
+                ,DSA and Frontend Web development(HTML ,CSS ,JAVASCRIPT) and working on my communication
+                skills.
+            </div>
+            <br><br>
+            <span class="head1">
+                <h1>Skills</h1>
+            </span><br>
+            <div class="lsection1">
+                <ul>
+                    <li><ion-icon name="code-slash-outline"></ion-icon> C </li>
+                    <li><ion-icon name="code-slash-outline"></ion-icon> C++ </li>
+                    <li><ion-icon name="logo-html5"></ion-icon> HTML </li>
+                    <li><ion-icon name="logo-css3"></ion-icon> CSS </li>
+                    <li><ion-icon name="logo-nodejs"></ion-icon> JS(learning) </li>
+                </ul>
+            </div>
+        </section>
+        <hr id="projects">
+        <section class="secondsection">
+            <span class="head2">
+                <h1>What I have done so far!</h1>
+            </span>
+            <div class="container">
+                <div class="box" data-aos="fade-up" data-aos-delay="250">
+                    InstaLogin Page Clone Project
+                    <a href="https://rishabhsri17.github.io/instaloginpg_clone/"><img src="inscl.jpeg" alt="" /></a>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-delay="350">
+                    Event Page Project Beginner
+                    <a href="https://rishabhsri17.github.io/iste_r2task1/"><img src="eventpg.jpeg" alt="" /></a>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-delay="450">
+                    Competitive Exams Qualified <br /><br />
+                    <ul>
+                        <li>*PRMO (2017,2018)</li>
+                        <br />
+                        <li>*JEE MAINS 2022 -99%</li>
+                        <br />
+                        <li>*JEE ADV 2022 -AIR 6176</li>
+                        <br />
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr id="contactme">
+
+
+        <section class="thirdsection">
+            <span class="head1">
+                <h1>Contact Me</h1>
+            </span>
+            <div class="form">
+                <form action="send.php" method="post">
+                    <div class="row">
+                        <div class="column1">
+                            <label for="firstname"></label>
+                            <input type="text" id="firstname" name="firstname" placeholder="First Name" required />
+                        </div>
+                        <div class="column1">
+                            <label for="lastname"></label>
+                            <input type="text" id="lastname" name="lastname" placeholder="Last Name" required />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column2">
+                            <label for="email"></label>
+                            <input type="email" id="email" name="email" placeholder="Email" required />
+                        </div>
+                        <div class="column2">
+                            <label for="phone"></label>
+                            <input type="tel" id="phone" name="phone" placeholder="Phone" required />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column3">
+                            <label for="address"></label>
+                            <input type="text" id="address" name="address" placeholder="Address" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column4">
+                            <label for="message"></label>
+                            <input type="text" id="message" name="message" placeholder="Type your message here "
+                                required />
+                        </div>
+                    </div>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container2">
+            <div class="fbox1">
+                <ul>
+                    <li><ion-icon name="logo-instagram"></ion-icon></ion-icon><a
+                            href="https://www.instagram.com/rishabh_sri17/">rishabh_sri17</a></li>
+                    <li><ion-icon name="mail-open-outline"></ion-icon><a
+                            href="rishabhdav76@gmail.com">rishabhdav76@gmail.com/</a></li>
+                </ul>
+            </div>
+            <div class="fbox2"></div>
+            <div class="fbox3">
+                Made by Rishabh with <ion-icon name="heart-outline"></ion-icon>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed("#element", {
+            strings: ["Competitive Programmer.", "Web Developer."],
+            typeSpeed: 50,
+        });
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
