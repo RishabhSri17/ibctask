@@ -138,11 +138,17 @@ main hr {
     margin: 60px 84px;
 }
 
+.secondsection{
+    max-width: 80vw;
+    margin: 5rem auto 5rem auto;
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+}
+
 .secondsection h1 {
     color: gray;
-    margin-left: 10rem;
     font-weight: 800;
-    font-size: 1.5rem;
+    
 }
 
 .container {
@@ -271,6 +277,8 @@ footer .container2 {
 
 
 @media screen and (min-width: 780px) and (max-width:1100px) {
+
+
     .firstsection {
         display: flex;
         flex-direction: column;
@@ -332,6 +340,20 @@ footer .container2 {
 }
 
 @media screen /* and (min-width: 600px)  */and (max-width:660px) {
+
+    .btext {
+        font-size: 2rem;
+        font-weight: 700;
+        /* margin: 0 auto 0 auto;  */
+    }
+
+    .leftsection {
+        margin: 3%;
+        text-align: left;
+        font-size: 1.2rem;
+    }
+
+
     .firstsection {
         display: flex;
         flex-direction: column;
@@ -340,11 +362,15 @@ footer .container2 {
     .rightsection img {
         width: 10rem;
         height: 10rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .rightsection1 img {
         width: 10rem;
         height: 10rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .container{
@@ -359,14 +385,14 @@ footer .container2 {
     nav ul li a {
         text-decoration: none;
         color: white;
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
     
     nav ul li a:hover {
         color: rgb(134, 134, 199);
         font-size: 0.8rem;
         transition: color 2.5s ease, padding 0.8s linear;
-        padding: 1px 5px;
+        padding: 1px 9px;
     }
     nav ul li {
         /* list-style: none; */
@@ -379,5 +405,18 @@ footer .container2 {
 
     .footer{
         font-size: 0.8rem;
+    }
+
+    .secondsection{
+        max-width: 80vw;
+        margin: 3rem auto 3rem auto;
+        font-size: 1rem;
+    }
+
+    .thirdsection {
+        max-width: 80vw;
+        margin: 3rem auto 3rem auto;
+        margin-bottom: 5rem;
+        font-size: 1rem;
     }
 }
